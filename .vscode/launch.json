@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+        }
+    ],
+    "args": [
+        "-- INPUT_FILENAME",
+        "heart_beat_test.wav",
+        "-- OUTPUT_FILENAME",
+        "clean.wav"
+    ]
+}
